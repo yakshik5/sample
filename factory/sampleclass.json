@@ -1,0 +1,9 @@
+{
+	"name": "sampleclass",
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "bcc35406-c35c-4a9d-b64b-3a78fa607fa0",
+		"tenantId": "85d3ad36-db79-4ee7-a707-439a2d07abec"
+	}
+}
