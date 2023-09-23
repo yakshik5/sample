@@ -1,5 +1,10 @@
 {
 	"name": "sampleclass",
+	"properties": {
+		"globalConfigurations": {
+			"PipelineBillingEnabled": "true"
+		}
+	},
 	"location": "southindia",
 	"identity": {
 		"type": "SystemAssigned",
