@@ -9,28 +9,18 @@
 		"type": "AzureSqlTable",
 		"schema": [
 			{
-				"name": "Empid",
-				"type": "int",
-				"precision": 10
-			},
-			{
-				"name": "EmpName",
-				"type": "nvarchar"
-			},
-			{
-				"name": "EmpSalary",
-				"type": "int",
-				"precision": 10
-			},
-			{
 				"name": "Deptid",
 				"type": "int",
 				"precision": 10
+			},
+			{
+				"name": "DepName",
+				"type": "varchar"
 			}
 		],
 		"typeProperties": {
 			"schema": "dbo",
-			"table": "Department"
+			"table": "employee"
 		}
 	}
 }
