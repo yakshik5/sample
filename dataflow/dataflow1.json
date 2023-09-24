@@ -17,7 +17,7 @@
 			"scriptLines": [
 				"parameters{",
 				"     parameter1 as string (DepName),",
-				"     parameter2 as string (Deptid)",
+				"     parameter2 as integer (Deptid)",
 				"}",
 				"source(output(",
 				"          Deptid as integer,",
