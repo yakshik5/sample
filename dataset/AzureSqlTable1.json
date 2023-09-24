@@ -2,8 +2,14 @@
 	"name": "AzureSqlTable1",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "AzureSqlDatabase4",
+			"referenceName": "AzureSqlDatabase1",
 			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"bhaskar": {
+				"type": "string",
+				"defaultValue": "10000"
+			}
 		},
 		"annotations": [],
 		"type": "AzureSqlTable",
